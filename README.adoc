@@ -1,0 +1,9 @@
+= LSE ST498 Graph Processing Resources
+
+* Slides - https://docs.google.com/presentation/d/1jNHrF804uX34iQdTQyaV6Yy1cOjOMEHcNKkeya5CB-A/edit#slide=id.g32b525dbf5_0_552
+
+* EDA Jupyter Notebook - https://github.com/neo4j-contrib/training/blob/master/data_science/EDA.ipynb
+
+* Applied Graph Algorithms Jupyter Notebook - https://github.com/neo4j-contrib/training/blob/master/data_science/AppliedGraphAlgorithms.ipynb
+
+* Graph Databases Book - http://graphdatabases.com/
