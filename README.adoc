@@ -1,6 +1,6 @@
 = LSE ST498 Graph Processing Resources
 
-* https://docs.google.com/presentation/d/1jNHrF804uX34iQdTQyaV6Yy1cOjOMEHcNKkeya5CB-A/edit#slide=id.g32b525dbf5_0_552[Slides^]
+* https://docs.google.com/presentation/d/1jNHrF804uX34iQdTQyaV6Yy1cOjOMEHcNKkeya5CB-A/edit#slide=id.g17cf24fac8_0_215[Slides^]
 
 * https://github.com/neo4j-contrib/training/blob/master/data_science/EDA.ipynb[EDA Jupyter Notebook^]
 
