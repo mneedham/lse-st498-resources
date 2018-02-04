@@ -2,6 +2,12 @@
 
 * https://docs.google.com/presentation/d/1jNHrF804uX34iQdTQyaV6Yy1cOjOMEHcNKkeya5CB-A/edit#slide=id.g17cf24fac8_0_215[Slides^]
 
+* https://panamapapers.icij.org/[Panama Papers^]
+
+* http://www.opencypher.org/[openCypher^]
+
+* http://tinkerpop.apache.org/[Gremlin/Tinkerpop^]
+
 * https://github.com/neo4j-contrib/training/blob/master/data_science/EDA.ipynb[EDA Jupyter Notebook^]
 
 * https://github.com/neo4j-contrib/training/blob/master/data_science/AppliedGraphAlgorithms.ipynb[Applied Graph Algorithms Jupyter Notebook^]
