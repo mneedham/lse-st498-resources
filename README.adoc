@@ -6,4 +6,12 @@
 
 * https://github.com/neo4j-contrib/training/blob/master/data_science/AppliedGraphAlgorithms.ipynb[Applied Graph Algorithms Jupyter Notebook^]
 
+* http://www.frankmcsherry.org/graph/scalability/cost/2015/01/15/COST.html[Scalability! But at what COST?^]
+
+* https://www.macalester.edu/~abeverid/thrones.html[Network of Thrones^]
+
 * http://graphdatabases.com/[Graph Databases Book^]
+
+* https://networkx.github.io/[NetworkX] - Python graph processing library
+
+* https://docs.databricks.com/spark/latest/graph-analysis/graphframes/user-guide-scala.html#standard-graph-algorithms[Spark GraphFrames^]
