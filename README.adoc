@@ -22,6 +22,10 @@
 
 * https://docs.databricks.com/spark/latest/graph-analysis/graphframes/user-guide-scala.html#standard-graph-algorithms[Spark GraphFrames^]
 
+* http://www.neo4j.com/download[Download Neo4j^]
+
+* http://www.neo4j.com/sandbox[Neo4j Sandbox^]
+
 = Graph from the session
 
 ```
