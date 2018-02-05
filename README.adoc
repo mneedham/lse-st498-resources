@@ -52,3 +52,7 @@ CREATE
   (`8`)-[:`CHAIRS` ]->(`4`),
   (`1`)-[:`EMPLOYED_BY` {since:'2013'}]->(`9`)
 ```
+
+* https://neo4j.com/docs/cypher-refcard/current/[Cypher Refcard^]
+
+* https://github.com/neo4j/neo4j[Neo4j Source Code^]
