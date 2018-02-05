@@ -21,3 +21,30 @@
 * https://networkx.github.io/[NetworkX] - Python graph processing library
 
 * https://docs.databricks.com/spark/latest/graph-analysis/graphframes/user-guide-scala.html#standard-graph-algorithms[Spark GraphFrames^]
+
+= Graph from the session
+
+```
+CREATE 
+  (`0` :Lecture {title:'Graph Data Processing'}) ,
+  (`1` :Lecturer {name:'Mark Needham'}) ,
+  (`2` :Student {name:'Michael'}) ,
+  (`3` :Module {title:'Distributed Computing',code:'ST446'}) ,
+  (`4` :DegreeProgram {title:'Data Science'}) ,
+  (`5` :Department {name:'Statistics'}) ,
+  (`6` :Room {name:'Tower 2'}) ,
+  (`7` :University {name:'LSE'}) ,
+  (`8` :Professor {name:'Milan'}) ,
+  (`9` :Company {name:'Neo4j'}) ,
+  (`1`)-[:`TEACHES` ]->(`0`),
+  (`2`)-[:`SITTING_ON` ]->(`0`),
+  (`0`)-[:`PART_OF` ]->(`3`),
+  (`3`)-[:`PART_OF` ]->(`4`),
+  (`5`)-[:`RUNS` ]->(`4`),
+  (`0`)-[:`LOCATED` ]->(`6`),
+  (`6`)-[:`LOCATED` ]->(`7`),
+  (`5`)-[:`PART_OF` ]->(`7`),
+  (`8`)-[:`EMPLOYED_BY` {since:'2016'}]->(`7`),
+  (`8`)-[:`CHAIRS` ]->(`4`),
+  (`1`)-[:`EMPLOYED_BY` {since:'2013'}]->(`9`)
+```
