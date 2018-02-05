@@ -26,10 +26,16 @@
 
 * http://www.neo4j.com/sandbox[Neo4j Sandbox^]
 
+* https://neo4j.com/docs/cypher-refcard/current/[Cypher Refcard^]
+
+* https://github.com/neo4j/neo4j[Neo4j Source Code^]
+
+* http://www.apcjones.com/arrows/#[Arrows Diagramming Tool^]
+
 = Graph from the session
 
 ```
-CREATE 
+CREATE
   (`0` :Lecture {title:'Graph Data Processing'}) ,
   (`1` :Lecturer {name:'Mark Needham'}) ,
   (`2` :Student {name:'Michael'}) ,
@@ -53,6 +59,8 @@ CREATE
   (`1`)-[:`EMPLOYED_BY` {since:'2013'}]->(`9`)
 ```
 
-* https://neo4j.com/docs/cypher-refcard/current/[Cypher Refcard^]
-
-* https://github.com/neo4j/neo4j[Neo4j Source Code^]
+```
+MATCH (lecture:Lecture)<-[:SITTING_ON]-(student)
+WHERE lecture.title = "Graph Data Processing"
+RETURN student.name
+```
